@@ -1,0 +1,42 @@
+# Git LFS tracking for large binary files
+# See: https://git-lfs.com
+#
+# These file types are tracked via Git LFS instead of regular git storage,
+# to keep the repository fast to clone and avoid GitHub's 100MB file limit.
+#
+# Anyone cloning this repo who wants the actual CAD files needs Git LFS
+# installed: https://git-lfs.com/ — then `git lfs pull` after cloning.
+
+# FreeCAD native files
+*.FCStd filter=lfs diff=lfs merge=lfs -text
+*.FCStd1 filter=lfs diff=lfs merge=lfs -text
+*.FCBak filter=lfs diff=lfs merge=lfs -text
+
+# Neutral CAD exchange formats
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp filter=lfs diff=lfs merge=lfs -text
+*.iges filter=lfs diff=lfs merge=lfs -text
+*.igs filter=lfs diff=lfs merge=lfs -text
+
+# Mesh / 3D print formats
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.3mf filter=lfs diff=lfs merge=lfs -text
+
+# CNC / cut files (usually small text, but nested layouts can get large)
+*.dwg filter=lfs diff=lfs merge=lfs -text
+
+# Archives (e.g. bundled cut-file sets)
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+# High-res images / renders (logo source files, renders, photos)
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+# NOTE: DXF files are intentionally NOT tracked via LFS by default —
+# most CNC-ready DXF exports are plain text (ASCII) and stay small,
+# and keeping them in regular git makes diffs readable. If nested-layout
+# DXFs end up large in practice, add:  *.dxf filter=lfs diff=lfs merge=lfs -text
