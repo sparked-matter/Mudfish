@@ -1,5 +1,7 @@
 # Mudfish
 
+**Half sailboat, half survival pod — built with surviving harsh conditions in its DNA.**
+
 **An open-source, LGPL-licensed aluminum sailboat, designed for ocean crossing.**
 
 Twin bilge keels for beachability and easy transport — no centerboard needed. Stitch-and-weld aluminum construction, buildable in a garage with a MIG welder. A hull that bounces off hard objects instead of breaking. Full CNC-ready build files, released free for anyone to build, study, and improve.
@@ -54,3 +56,4 @@ Mudfish is released under the **GNU Lesser General Public License v3.0** — see
 ## About Sparked Matter
 
 Sparked Matter LLC works at the intersection of three things: **it matters** (real problems, real purpose), **subject matter** (deep engineering knowledge), and **physical matter** (ideas made into working hardware). Mudfish is that philosophy applied to a hull. Learn more at [sparkedmatter.com](https://sparkedmatter.com).
+
