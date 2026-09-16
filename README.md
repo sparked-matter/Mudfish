@@ -29,8 +29,10 @@ Most small-boat design plans are sold, closed, and undocumented — you get a se
 
 - **Twin bilge keels** instead of a fin keel or centerboard — dries out upright on a beach or mudflat, simplifies construction, no moving parts below the waterline.
 - **Aluminum, not fiberglass or plywood** — dents instead of cracking on impact with reefs, containers, or debris. Variable plate thickness by zone (heavier at the keel/bottom, lighter above the waterline) balances toughness against weight.
-- **MIG-first, TIG where it counts** — accessible to a builder with a quality pulse-MIG welder and practice, not dependent on aerospace-grade welding certification.
+- **Aluminum 5086 alloy** — marine-grade, weldable, excellent corrosion resistance in saltwater. The reference design uses MIG welding (accessible to an amateur builder with practice), with serious ongoing consideration for a riveted construction variant — mechanically fastened panels with Sikaflex sealant, no welding equipment required.
+- **MIG-first, riveted as a serious alternative** — the welded path requires a quality pulse-MIG welder and practice; the riveted path opens the build to anyone with hand tools and patience.
 - **AI-accelerated, human-verified** — FreeCAD and modern engineering tools shorten the iteration cycle dramatically. Every calculation is still checked against real naval architecture principles, not just AI output.
+- **Material-agnostic parametric core** — the reference design targets aluminum 5086, but the parametric architecture is designed to accommodate alternative materials: marine plywood, cold-molded wood, fiberglass/foam composite, basalt fiber composite, or other structural materials. Different materials require different plate thickness laws and structural calculations, but the hull geometry engine is not locked to any one material.
 
 ## Repository Structure
 
