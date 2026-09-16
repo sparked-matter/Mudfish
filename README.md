@@ -38,6 +38,8 @@ The community is invited to review every calculation, run additional tests, prop
 
 Watch/star the repo to follow progress.
 
+> ⚠️ **Analysis status:** Hydrodynamic analysis, FEA, structural integrity, hydrostatics, and weight budget have **not yet been executed.** No results exist for these items yet. See [ANALYSIS_STATUS.md](./ANALYSIS_STATUS.md) for the full transparent record and an open invitation for community contributions.
+
 ## Design Philosophy
 
 - **Twin bilge keels** instead of a fin keel or centerboard — dries out upright on a beach or mudflat, simplifies construction, no moving parts below the waterline.
