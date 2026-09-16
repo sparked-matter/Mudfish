@@ -21,9 +21,22 @@ Most small-boat design plans are sold, closed, and undocumented — you get a se
 - **Accessible.** Designed around amateur-buildable aluminum stitch-and-weld construction, not a professional boatyard.
 - **Transparent.** Every major design decision is documented in the [Engineering Log](./engineering-log) — the formulas, the tradeoffs, and yes, the AI-assisted exploration that helped get there. Nothing is a black box.
 
-## Status
+## Status and Roadmap
 
-🚧 **Early development.** Hull form and stability calculations are the current priority — see the [Engineering Log](./engineering-log) for active work. No finalized build files yet. Watch/star the repo to follow progress.
+🚧 **Active development.** The hull geometry engine, parametric design system, and matrix lofting architecture are under active construction. No finalized CNC or build files yet — but that is exactly where this is heading.
+
+**The goal is a complete, publicly verifiable digital design package:**
+
+- **Parametric hull geometry** — every dimension driven by named parameters, fully documented in the Engineering Log
+- **FEA (Finite Element Analysis)** — structural simulation under real load cases, committed to the repo for community review
+- **Hydrostatic analysis** — displacement, stability curves, righting moment, run from the live parametric model via FreeCAD Ship workbench
+- **Weight and balance** — full material-by-member weight budget, automatically updated when parameters change
+- **Simulation history** — every test run, every result, every version committed to GitHub with a full audit trail. Nothing hidden, nothing discarded.
+- **CNC-ready build files** — pre-punched rivet hole patterns, panel layouts, cut files — coming as the hull form is finalized
+
+The community is invited to review every calculation, run additional tests, propose improvements, and fork the design in any direction. This is not just open-source plans — it is an open, living, mathematically verifiable design process.
+
+Watch/star the repo to follow progress.
 
 ## Design Philosophy
 
