@@ -47,6 +47,24 @@ mudfish/
 └── cutfiles/              CNC-ready DXF/nested layouts (coming once hull form is finalized)
 ```
 
+## The Digital Advantage
+
+Mudfish is not just a set of boat plans. It is a fully parametric, fully digital design system — and that distinction matters.
+
+Because the hull geometry is driven by named parameters (beam, draft, freeboard, rocker, flare angle, material thickness), every structural member is mathematically defined rather than hand-drawn. Change the plate gauge from 4mm to 3mm and the weight budget updates everywhere. Swap the stem material from aluminum to G10 and the joint analysis updates. Add a second chine and the entire hull geometry recomputes.
+
+This parametric foundation enables a class of analysis that closed, static boat plans simply cannot offer:
+
+- **FEA (Finite Element Analysis)** — structural stress simulation under wave loading, impact, and rig tension, run against the actual hull geometry with real material properties
+- **Hydrostatics and stability** — displacement, center of buoyancy, righting moment curves, all computed from the live parametric model via FreeCAD's Ship workbench
+- **Weight and balance** — full weight budget from material density × volume for every structural member, automatically updated when materials or dimensions change
+- **Longitudinal strength** — bending moment and shear force along the hull length under realistic load cases
+- **Material comparison** — run the same hull in 5086 aluminum, marine plywood, basalt fiber composite, or G10 and compare weight, cost, and structural performance side by side
+
+All of this is open, documented, and baked into the design files. Builders who want to verify, modify, or extend any calculation have everything they need. Nothing is a black box. Nothing requires purchasing a proprietary software license. The entire digital thread — from hull parameter to CNC cut file — is free, open, and reproducible.
+
+---
+
 ## Getting Started
 
 This project is early — there isn't yet a build-ready file set. The best way to follow along right now:
