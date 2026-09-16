@@ -4,6 +4,9 @@
 
 **An open-source, LGPL-licensed aluminum sailboat, designed for ocean crossing.**
 
+> **Historical note:** Mudfish is believed to be the first publicly documented, LGPL-licensed, open-source sailboat design capable of solo ocean crossing. This repository was made public on GitHub in 2026. All commits are cryptographically timestamped and permanently recorded. If you know of an earlier open-source LGPL sailboat design, please open a Discussion — we want the record to be accurate.
+
+
 Twin bilge keels for beachability and easy transport — no centerboard needed. Stitch-and-weld aluminum construction, buildable in a garage with a MIG welder. A hull that bounces off hard objects instead of breaking. Full CNC-ready build files, released free for anyone to build, study, and improve.
 
 Mudfish is a flagship project of [Sparked Matter LLC](https://sparkedmatter.com).
