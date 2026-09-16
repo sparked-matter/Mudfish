@@ -2,12 +2,12 @@
 
 **Half sailboat, half survival pod — built with surviving harsh conditions in its DNA.**
 
-**An open-source, LGPL-licensed aluminum sailboat, designed for ocean crossing.**
+**An open-source, LGPL-licensed, fully parametric aluminum sailboat, designed for ocean crossing.**
 
-> **Historical note:** Mudfish is believed to be the first publicly documented, LGPL-licensed, open-source sailboat design capable of solo ocean crossing. This repository was made public on GitHub in 2026. All commits are cryptographically timestamped and permanently recorded. If you know of an earlier open-source LGPL sailboat design, please open a Discussion — we want the record to be accurate.
+> **Historical note:** Mudfish is believed to be the first sailboat design released under a formal open-source license (LGPL-3.0) with fully parametric design files, version-controlled documentation, and a public repository — as distinct from "free plans," which lack a legal open-source framework. This repository was made public on GitHub in 2026. All commits are cryptographically timestamped and permanently recorded. If you know of an earlier LGPL-licensed parametric sailboat design, please open a Discussion — we want the record to be accurate.
 
 
-Twin bilge keels for beachability and easy transport — no centerboard needed. Stitch-and-weld aluminum construction, buildable in a garage with a MIG welder. A hull that bounces off hard objects instead of breaking. Full CNC-ready build files, released free for anyone to build, study, and improve.
+Twin bilge keels for beachability and easy transport — no centerboard needed. Stitch-and-weld aluminum construction, buildable in a garage with a MIG welder. A hull that bounces off hard objects instead of breaking. Fully parametric design — change one parameter and the hull updates everywhere. Full CNC-ready build files, released free for anyone to build, study, and improve.
 
 Mudfish is a flagship project of [Sparked Matter LLC](https://sparkedmatter.com).
 
